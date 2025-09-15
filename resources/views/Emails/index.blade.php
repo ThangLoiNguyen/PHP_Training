@@ -2,12 +2,11 @@
 
 @section('content')
 <div class="max-w-4xl mx-auto mt-12 px-4">
-    <!-- Tiêu đề -->
     <h1 class="text-3xl font-bold text-indigo-600 mb-8 flex items-center gap-2">
         <span>📧</span> Danh sách Email
     </h1>
 
-    <!-- Nút thêm email -->
+    <!-- Thêm email -->
     <div class="mb-6">
         <a href="{{ route('emails.create') }}" 
            class="inline-block px-4 py-2 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 transition"
@@ -23,7 +22,7 @@
         </div>
     @endif
 
-    <!-- Bảng danh sách email -->
+    <!-- Danh sách email -->
     <div class="overflow-x-auto">
         <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow-md">
             <thead class="bg-gray-800 text-white">

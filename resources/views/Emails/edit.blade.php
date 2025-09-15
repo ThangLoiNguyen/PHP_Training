@@ -2,7 +2,6 @@
 
 @section('content')
     <div class="max-w-lg mx-auto mt-12 px-4">
-        <!-- Tiêu đề -->
         <h1 class="text-3xl font-bold text-indigo-600 mb-8 flex items-center gap-2">
             <span>✏️</span> Sửa Email
         </h1>
@@ -23,14 +22,14 @@
                 @enderror
             </div>
 
-            <!-- Nút cập nhật -->
+            <!-- Cập nhật -->
             <button type="submit"
                 class="w-full py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition">
                 Cập nhật
             </button>
         </form>
 
-        <!-- Nút quay lại -->
+        <!-- Quay lại -->
         <div class="mt-6">
             <a href="{{ route('emails.index') }}"
                 class="inline-block px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition"
