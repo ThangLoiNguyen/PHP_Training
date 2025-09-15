@@ -10,7 +10,8 @@
     <!-- Nút thêm email -->
     <div class="mb-6">
         <a href="{{ route('emails.create') }}" 
-           class="inline-block px-4 py-2 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 transition">
+           class="inline-block px-4 py-2 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 transition"
+           style="text-decoration: none">
             + Thêm email
         </a>
     </div>
